@@ -61,7 +61,7 @@ public class CompanyImpl implements Company {
 
     @Override
     public double avgSalary() {
-        return totalSalary() / 4;
+        return totalSalary() / size;
     }
 
     @Override
